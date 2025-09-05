@@ -1,4 +1,4 @@
-### Manipulating Spatial Data in R ####
+### Manipulating Spatial Data in R 
 
 
 setwd("/Geospatial_Analysis/R_spatial_codes/Part2")
@@ -163,6 +163,7 @@ names(statesWithCounts)
 ggplot() + geom_spatvector(data = statesWithCounts,aes(fill = `Freshwater Mussels`),color = "black",linewidth = 1) + 
   
   scale_fill_steps(low = "white",high = "red",n.breaks = 10)
+
 
 
 
